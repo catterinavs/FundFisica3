@@ -1,0 +1,284 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12022,        274]
+NotebookOptionsPosition[     10436,        237]
+NotebookOutlinePosition[     10840,        253]
+CellTagsIndexPosition[     10797,        250]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Trabalho em Grupo - M\[AAcute]scaras PFF2/N95", "Title",
+ CellChangeTimes->{{3.906927495423321*^9, 3.906927525512867*^9}},
+ TextAlignment->Center,ExpressionUUID->"14f69af5-60c9-4796-a11c-9b9d7b1cdf2a"],
+
+Cell[TextData[{
+ StyleBox["Fundamentos de F\[IAcute]sica 3",
+  FontSize->18],
+ "\nAluno 1: Pedro Henrique Passos Rocha\nAluno 2: Catterina Vittorazzi \
+Salvador\nAluno 3: Caio Cordeiro\nAluno 4: Jo\[ATilde]o Pedro Teixeira "
+}], "Text",
+ CellChangeTimes->{{3.9069276155766835`*^9, 3.906927654694027*^9}},
+ TextAlignment->Center,ExpressionUUID->"0aee9951-69ae-43cf-8851-8fa05fe83862"],
+
+Cell[CellGroupData[{
+
+Cell["Introdu\[CCedilla]\[ATilde]o:", "Section",
+ CellChangeTimes->{{3.9069277890512877`*^9, 
+  3.9069277916692667`*^9}},ExpressionUUID->"ea1138aa-5f24-48f6-b2e2-\
+91337f494acd"],
+
+Cell["\<\
+A busca por compreender e aplicar os princ\[IAcute]pios da f\[IAcute]sica \
+eletromagn\[EAcute]tica \[EAcute] fundamental para \[AAcute]reas da \
+ci\[EHat]ncia e tecnologia. O entendimento dos fen\[OHat]menos \
+el\[EAcute]tricos desempenha um papel crucial na solu\[CCedilla]\[ATilde]o de \
+desafios e na inova\[CCedilla]\[ATilde]o que moldam o nosso cotidiano.
+No cen\[AAcute]rio de pandemia do v\[IAcute]rus COVID-19, utilizando \
+tecnologia do filtro eletrost\[AAcute]tico, as m\[AAcute]scaras N95/PFF2 \
+desempenharam um papel significativo no enfrentamento e na conten\[CCedilla]\
+\[ATilde]o de propaga\[CCedilla]\[ATilde]o do v\[IAcute]rus.
+Nesse texto, exploraremos o princ\[IAcute]pio da eletricidade \
+est\[AAcute]tica para a efic\[AAcute]cia das m\[AAcute]scaras PFF2, assim \
+como tamb\[EAcute]m um comparativo com as m\[AAcute]scaras convencionais, a \
+fim de fornecer uma compreens\[ATilde]o de como as m\[AAcute]scaras de prote\
+\[CCedilla]\[ATilde]o N95  s\[ATilde]o superiores em \
+rela\[CCedilla]\[ATilde]o \[AGrave] filtragem.\
+\>", "Text",
+ CellChangeTimes->{3.9069278073056173`*^9, 3.906928046452716*^9},
+ TextJustification->1.,ExpressionUUID->"39a7a149-824e-4aaa-bf4c-4e587691016b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+A F\[IAcute]sica do filtro eletrost\[AAcute]tico que est\[ATilde]o presentes \
+nas m\[AAcute]scaras PFF2/N95:\
+\>", "Section",
+ CellChangeTimes->{
+  3.9069278807548037`*^9},ExpressionUUID->"2495ff67-bcdb-4942-ab43-\
+5c1d89461f07"],
+
+Cell["\<\
+A F\[IAcute]sica do filtro eletrost\[AAcute]tico presente em m\[AAcute]scaras \
+PFF2/N95 baseia-se em induzir carga eletrost\[AAcute]tica \[AGrave]s fibras \
+do material de filtragem. Essa carga induzida gera um campo el\[EAcute]trico \
+que  atrai part\[IAcute]culas com carga oposta, como v\[IAcute]rus e part\
+\[IAcute]culas finas, retendo-as na m\[AAcute]scara por meio das for\
+\[CCedilla]as de van der Waals. Isso permite uma filtragem altamente eficaz. \
+Essa atra\[CCedilla]\[ATilde]o eletrost\[AAcute]tica \[EAcute] a base da \
+capacidade das m\[AAcute]scaras PFF2/N95 de proteger contra a \
+inala\[CCedilla]\[ATilde]o de part\[IAcute]culas perigosas presentes no ar.\
+\>", "Text",
+ CellChangeTimes->{3.906927899062972*^9},
+ TextJustification->1.,ExpressionUUID->"c3845b15-03b3-4e42-bc3a-04740a2cd258"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Estat\[IAcute]sticas de efic\[AAcute]cia das m\[AAcute]scaras:", \
+"Section",
+ CellChangeTimes->{{3.9069279856358767`*^9, 
+  3.906927988252516*^9}},ExpressionUUID->"7b9b74a1-dc3b-4a3b-a370-\
+e1f1ef8714e6"],
+
+Cell["\<\
+As estat\[IAcute]sticas revelam que m\[AAcute]scaras caseiras feitas de \
+tecido tricoline e malha 100% algod\[ATilde]o t\[EHat]m uma efic\[AAcute]cia \
+(EF) de menos de 60% na reten\[CCedilla]\[ATilde]o de part\[IAcute]culas de \
+100 nm. Em contraste, m\[AAcute]scaras de TNT com diferentes camadas (uma, \
+duas e tr\[EHat]s camadas) apresentam uma EF superior a 80%, superando as m\
+\[AAcute]scaras cir\[UAcute]rgicas hospitalares, N95 e PFF2 S \
+(m\[AAcute]scaras hospitalares PFF2 sem filtro). Embora as m\[AAcute]scaras \
+caseiras ofere\[CCedilla]am uma prote\[CCedilla]\[ATilde]o relativamente \
+inferior, seu uso pode desempenhar um papel crucial na preven\[CCedilla]\
+\[ATilde]o da alta transmissibilidade do v\[IAcute]rus SARS-CoV-2, respons\
+\[AAcute]vel pela COVID-19, e de outros v\[IAcute]rus (Sousa, 2022).
+Al\[EAcute]m disso, os modelos N95, PFF2 e demais equivalentes que t\[EHat]m \
+conformidade com a Norma Europeia (EN-149:2991), t\[EHat]m um papel \
+imprescind\[IAcute]vel na prote\[CCedilla]\[ATilde]o contra agentes patog\
+\[EHat]nicos transmitidos pelo ar, bem como aqueles transmitidos por got\
+\[IAcute]culas, principalmente part\[IAcute]culas de tamanho igual ou menor a \
+5\[Mu]m. Tamb\[EAcute]m \[EAcute] importante ressaltar que em alguns pa\
+\[IAcute]ses \[EAcute] permitida a reutiliza\[CCedilla]\[ATilde]o destas m\
+\[AAcute]scaras, o que aumenta sua utilidade e diminui custos. \
+\>", "Text",
+ CellChangeTimes->{{3.9069280187819414`*^9, 3.9069280393245*^9}},
+ TextJustification->1.,ExpressionUUID->"8749c571-fe16-4fd9-a346-51a34423685c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+3 modelos de m\[AAcute]scaras PFF2/N95 vendidas no Brasil, com \
+pre\[CCedilla]o m\[EAcute]dio e link:\
+\>", "Section",
+ CellChangeTimes->{
+  3.906928109566261*^9},ExpressionUUID->"1daddb97-02fb-4571-b5a3-\
+993354c1c3a3"],
+
+Cell[TextData[Cell[BoxData[GridBox[{
+   {"NOME", 
+    RowBox[{"PRE\[CapitalCCedilla]O", " ", "M\[CapitalEAcute]DIO"}], "LINK"},
+   {
+    RowBox[{
+    "M\[CapitalAAcute]SCARA", " ", "BRANCA", " ", 
+     "RESPIRAT\[CapitalOAcute]RIA", " ", "DESCART\[CapitalAAcute]VEL", " ", 
+     "PPF2", " ", "3", "M", " ", "9920", "H"}], 
+    RowBox[{"R$5", ",", "20"}], 
+    ButtonBox["Link",
+     BaseStyle->"Hyperlink",
+     ButtonData->{
+       URL[
+       "https://www.rioclarense.com.br/produto/mascara-9920h-3m-original-\
+hospitalar-descartavel-pact-1und-fba-hb004419667/4888809"], None},
+     ButtonNote->
+      "https://www.rioclarense.com.br/produto/mascara-9920h-3m-original-\
+hospitalar-descartavel-pact-1und-fba-hb004419667/4888809"]},
+   {
+    RowBox[{
+    "M\[AAcute]scara", " ", "respirat\[OAcute]ria", " ", "Honeywell", " ", 
+     "PFF2"}], 
+    RowBox[{"R$2", ",", "50"}], 
+    ButtonBox["Link",
+     BaseStyle->"Hyperlink",
+     ButtonData->{
+       URL[
+       "https://www.magazineluiza.com.br/mascara-respiratoria-honeywell-pff2-\
+sem-valvula-dobravel-st-p2-a-br-azul-ca-5527/p/jd8a49hhd1/pi/mscr/?seller_id=\
+super&srsltid=AfmBOor8r_PM8kDcO4n6HIRShCfR88aX8qKQttfTL3ssiU9ShLxfOHRRqyQ&\
+region_id=123474"], None},
+     ButtonNote->
+      "https://www.magazineluiza.com.br/mascara-respiratoria-honeywell-pff2-\
+sem-valvula-dobravel-st-p2-a-br-azul-ca-5527/p/jd8a49hhd1/pi/mscr/?seller_id=\
+super&srsltid=AfmBOor8r_PM8kDcO4n6HIRShCfR88aX8qKQttfTL3ssiU9ShLxfOHRRqyQ&\
+region_id=123474"]},
+   {
+    RowBox[{
+    "N95", " ", "PFF2", " ", "KSN", " ", "Sem", " ", "V\[AAcute]lvula", " ", 
+     "Descart\[AAcute]vel"}], 
+    RowBox[{"R$3", ",", "90"}], 
+    ButtonBox["Link",
+     BaseStyle->"Hyperlink",
+     ButtonData->{
+       URL[
+       "https://www.americanas.com.br/produto/5468358340/kit-10-mascaras-n95-\
+pff2-aprovacao-inmetro-marca-ksn-azul-sem-valvula-descartavel?pfm_carac=\
+mascara-pff2&pfm_index=2&pfm_page=search&pfm_pos=grid&pfm_type=search_page&\
+offerId=62e51921adbc5f39b97444ef"], None},
+     ButtonNote->
+      "https://www.americanas.com.br/produto/5468358340/kit-10-mascaras-n95-\
+pff2-aprovacao-inmetro-marca-ksn-azul-sem-valvula-descartavel?pfm_carac=\
+mascara-pff2&pfm_index=2&pfm_page=search&pfm_pos=grid&pfm_type=search_page&\
+offerId=62e51921adbc5f39b97444ef"]}
+  }]],
+ TextAlignment->
+  Center,ExpressionUUID->"e1d31a68-3d0c-4d6b-ad6d-f7a2f55db500"]], "Text",
+ CellChangeTimes->{{3.90692819840432*^9, 3.906928240110772*^9}, {
+   3.906928332533678*^9, 3.906928394779948*^9}, {3.906928455130952*^9, 
+   3.906928455130952*^9}, {3.9069284889777775`*^9, 3.9069286392793217`*^9}, 
+   3.9069288513001833`*^9, {3.906928893301238*^9, 
+   3.906928897029358*^9}},ExpressionUUID->"b69b361a-7811-4c0c-9426-\
+61a9bdbaf4a9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Refer\[EHat]ncias:", "Section",
+ CellChangeTimes->{{3.9069289807655864`*^9, 
+  3.906928985325629*^9}},ExpressionUUID->"708ecbe6-c007-4a56-ac38-\
+7a90376f8947"],
+
+Cell["\<\
+SOUSA, Rellyson Paulo de. Efici\[EHat]ncia de filtragem de part\[IAcute]culas \
+em materiais t\[EHat]xteis utilizados em m\[AAcute]scaras faciais caseiras. \
+Orientador: Tatiana de Campos Bicudo. 2022. 62f. \
+Disserta\[CCedilla]\[ATilde]o (Mestrado em Engenharia T\[EHat]xtil) - Centro \
+de Tecnologia, Universidade Federal do Rio Grande do Norte, Natal, 2022.
+
+CAMARGO, M. C. DE . et al.. Efic\[AAcute]cia da m\[AAcute]scara facial (TNT) \
+na popula\[CCedilla]\[ATilde]o para a preven\[CCedilla]\[ATilde]o de infec\
+\[CCedilla]\[OTilde]es por coronav\[IAcute]rus: revis\[ATilde]o sistem\
+\[AAcute]tica. Ci\[EHat]ncia & Sa\[UAcute]de Coletiva, v. 25, n. 9, p. 3365\
+\[Dash]3376, set. 2020. 
+
+FERREIRA, J. da C.; SILVA, J. D. da .; SILVA, R. do S.; OLIVEIRA, Y. A. R. de \
+.; STEIN, C. R.; STOFFES JUNIOR, M. J. . A F\[IAcute]sica das \
+m\[AAcute]scaras PFF2: uma sequ\[EHat]ncia did\[AAcute]tica. Conjecturas, [S. \
+l.], v. 22, n. 13, p. 940\[Dash]953, 2022. Dispon\[IAcute]vel em: \
+https://www.conjecturas.org/index.php/edicoes/article/view/1729. Acesso em: \
+21 out. 2023.
+
+SILVA, D. M. DA; RODRIGUES, N. H.; SILVA, L. G. A. DA; SOUZA, E.; OLIVEIRA, \
+S. G. DE; OS\[CapitalOAcute]RIO, A. P. Recomenda\[CCedilla]\[OTilde]es para a \
+utiliza\[CCedilla]\[ATilde]o de m\[AAcute]scaras em ambiente hospitalar \
+durante a pandemia ocasionada pelo Coronav\[IAcute]rus / Recommendations for \
+the use of masks in a hospital environment during the Coronavirus pandemic. \
+Journal of Nursing and Health, v. 10, n. 4, 1 jun. 2020.
+\
+\>", "Text",
+ CellChangeTimes->{{3.906929027547125*^9, 
+  3.90692904613652*^9}},ExpressionUUID->"000ad6c3-ebae-4800-95a7-\
+b44636ff36a7"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1024.5, 507.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"c4dbc42c-958e-45ef-9d01-08462373b3fb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 207, 2, 98, "Title",ExpressionUUID->"14f69af5-60c9-4796-a11c-9b9d7b1cdf2a"],
+Cell[790, 26, 383, 7, 130, "Text",ExpressionUUID->"0aee9951-69ae-43cf-8851-8fa05fe83862"],
+Cell[CellGroupData[{
+Cell[1198, 37, 178, 3, 67, "Section",ExpressionUUID->"ea1138aa-5f24-48f6-b2e2-91337f494acd"],
+Cell[1379, 42, 1213, 18, 150, "Text",ExpressionUUID->"39a7a149-824e-4aaa-bf4c-4e587691016b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2629, 65, 240, 6, 67, "Section",ExpressionUUID->"2495ff67-bcdb-4942-ab43-5c1d89461f07"],
+Cell[2872, 73, 820, 12, 104, "Text",ExpressionUUID->"c3845b15-03b3-4e42-bc3a-04740a2cd258"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3729, 90, 211, 4, 67, "Section",ExpressionUUID->"7b9b74a1-dc3b-4a3b-a370-e1f1ef8714e6"],
+Cell[3943, 96, 1580, 22, 219, "Text",ExpressionUUID->"8749c571-fe16-4fd9-a346-51a34423685c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5560, 123, 231, 6, 67, "Section",ExpressionUUID->"1daddb97-02fb-4571-b5a3-993354c1c3a3"],
+Cell[5794, 131, 2737, 62, 104, "Text",ExpressionUUID->"b69b361a-7811-4c0c-9426-61a9bdbaf4a9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8568, 198, 165, 3, 67, "Section",ExpressionUUID->"708ecbe6-c007-4a56-ac38-7a90376f8947"],
+Cell[8736, 203, 1672, 30, 357, "Text",ExpressionUUID->"000ad6c3-ebae-4800-95a7-b44636ff36a7"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
